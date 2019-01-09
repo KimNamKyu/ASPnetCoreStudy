@@ -1,0 +1,44 @@
+﻿# 자료형( Data Type )과 리스트
+
+C#
+기본 자료형 : int(int32), string, double, long(int64), float
+
+사용자 정의 : class ( 객체 )
+
+# 리스트
+C# 에서의 List<>
+List<T> (); 제네릭 리스트
+
+>> 요즘 사용하는 방식
+var list = List<T> ( );
+list.Add(new User{Name=" ", Birth = 940629})
+
+>> 옛날 방식 Non-generic-Collection
+
+1. Generic Collection
+  C# 에서 정의한 List <T> () 범주
+  1) IEnumerable (열거형) : 쭉 나열! 
+      - 가장 작은 형태의 List
+      - IEnumerable 에서는 ICollection이 작동하지 않아
+	  - 갯수를 체크할때 IEnumerable 에서는 Count 를 사용하지 못함.
+	  - 하나의 데이터를 삭제, 추가 는 ICollection에서 가능
+  2) ICollection 
+     - int Count{get;} 
+     - 데이터 추가, 삭제 가 가능해
+  3) IList
+    - 특정인덱스에 추가 삭제 가능
+
+  >>> 이 세가지 Generic Collection을 상속 받은 것이 List 야!!
+
+  IEnumerable < ICollection < IList < List<T>
+
+2. Non-generic-Collection
+ 1) ArrayList
+ 2) SortedList
+ 3) HashTable
+ 4) BitArray
+ 5) Queue
+ 6) Statck
+ >> 요즘은 다 Generic List 사용, Web에서는 잘 사용 하지 않는다고 함.
+ 특징 : ArrayList 를 선언하면 숫자를 넣던 문자를 넣던 처리함.
+
