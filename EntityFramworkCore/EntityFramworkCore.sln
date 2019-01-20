@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonGeneric", "NonGeneric\No
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore(2)", "EntityFrameworkCore(2)\EntityFrameworkCore(2).csproj", "{B943CE98-B50C-4A24-80A1-D4742EC1CC6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiyFrameworkCore(3)", "EntitiyFrameworkCore(3)\EntitiyFrameworkCore(3).csproj", "{865F6692-A456-46FF-9E2A-C4F14C6C9122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B943CE98-B50C-4A24-80A1-D4742EC1CC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B943CE98-B50C-4A24-80A1-D4742EC1CC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B943CE98-B50C-4A24-80A1-D4742EC1CC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865F6692-A456-46FF-9E2A-C4F14C6C9122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865F6692-A456-46FF-9E2A-C4F14C6C9122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865F6692-A456-46FF-9E2A-C4F14C6C9122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865F6692-A456-46FF-9E2A-C4F14C6C9122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

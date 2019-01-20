@@ -1,4 +1,5 @@
-﻿namespace EntityFrameworkCore_2_.Entities
+﻿
+namespace EntitiyFrameworkCore_3_.Entities
 {
     public class User
     {
@@ -6,5 +7,7 @@
         public string UserName { get; set; }
         public string Birth { get; set; }
 
+        public int PositionId { get; set; }
+        public Position Position { get; set; }
     }
 }
